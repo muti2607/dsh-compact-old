@@ -1,0 +1,36 @@
+{
+  "name": "dsh-compact-old",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "压缩已经堆积过长的会话：调用宿主压缩服务把较早历史替换成摘要，支持按会话 id 或标题指定目标。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "compaction",
+    "context"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "test/*.mjs"
+  ],
+  "scripts": {
+    "test": "node test/verify.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

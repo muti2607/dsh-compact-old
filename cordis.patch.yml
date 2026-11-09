@@ -1,0 +1,4 @@
+- insert:
+    - id: compact-old
+      name: dsh-compact-old
+      config: {}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Old session compaction",
+    "description": "Compact long-lived sessions: list compactable live sessions, target one by id or title, and replace older history with a summary."
+  }
+}

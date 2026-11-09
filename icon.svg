@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Compact old session">
+  <rect width="64" height="64" rx="14" fill="#1a2432"/>
+  <rect x="13" y="15" width="38" height="6" rx="3" fill="#4C8DFF" opacity=".3"/>
+  <rect x="13" y="25" width="38" height="6" rx="3" fill="#4C8DFF" opacity=".3"/>
+  <rect x="13" y="35" width="38" height="6" rx="3" fill="#4C8DFF" opacity=".3"/>
+  <rect x="22" y="45" width="20" height="5" rx="2.5" fill="#3ECFA0"/>
+  <path d="M32 20 L32 40 M27 35 L32 41 L37 35" stroke="#3ECFA0" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
